@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "testmod:flix"
+  },
+  "result": "testmod:haiper",
+  "experience": 10000,
+  "cookingtime": 150
+}

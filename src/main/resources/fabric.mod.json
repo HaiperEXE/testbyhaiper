@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "testmod",
+  "version": "${version}",
+
+  "name": "Test Mod",
+  "description": "this is haiper's first fabric mod",
+  "authors": [
+    "HaiperEXE"
+  ],
+  "contact": {
+    "homepage": "youtube.com/c/haiperexe",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.haiper.test.TestMod"
+    ]
+  },
+  "mixins": [
+    "testmod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
